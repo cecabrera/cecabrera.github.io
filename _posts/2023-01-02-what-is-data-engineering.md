@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is Data Engineering?
+date: '2023-01-02'
 tags:
     - Data engineering
     - Big data
