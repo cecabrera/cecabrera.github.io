@@ -40,7 +40,7 @@ avatar: "http://cecabrera.github.io/img/avatar.jpg"
 author:
   name: Camilo Cabrera
   email: "cecabrera55@gmail.com"
-  linkedin: camilo-cabrera-21663b17
+  linkedin: camilo-cabrera
   github: cecabrera   
 #  twitter: CamiloECabrera
 #  facebook: cecabrera55
@@ -75,7 +75,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "camicabrera.com"
+url-pretty: "cecabrera.github.io"
 
 # --- Misc --- #
 
