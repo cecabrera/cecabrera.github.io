@@ -4,7 +4,7 @@ layout: post
 date: '2017-07-27'
 permalink: /blog/setup-dkan-digitalocean/
 published: true
-share-img: "/img/blog/portaldatos/opendata_graph_PC.png"
+share-img: "/assets/img/blog/portaldatos/opendata_graph_PC.png"
 tags:
 - Español
 - Spanish
@@ -240,7 +240,7 @@ Abre tu dirección `123.123.1.2`. Ya puedes ver que DKAN está listo para ser in
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/portaldatos/error-instalacion.png" alt="¡Aún falta modificar los permisos!">
+    <img src="/assets/img/blog/portaldatos/error-instalacion.png" alt="¡Aún falta modificar los permisos!">
   </a>
 </div>
 
@@ -269,7 +269,7 @@ Un vez carga la página y la instalación inicia, ingresamos los parámetros de 
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/portaldatos/setup-instalacion.png" alt="Configuración de la base de datos">
+    <img src="/assets/img/blog/portaldatos/setup-instalacion.png" alt="Configuración de la base de datos">
   </a>
 </div>
 
@@ -279,7 +279,7 @@ Digita la información de tu sitio web. El _Nombre del sitio_ va a ser el que ap
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/portaldatos/setup.png" alt="Configuración de la página por primera vez">
+    <img src="/assets/img/blog/portaldatos/setup.png" alt="Configuración de la página por primera vez">
   </a>
 </div>
 
@@ -289,7 +289,7 @@ Continúa con la creación del usuario y contraseña del administrador de la pla
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/portaldatos/actualizaciones.png" alt="Actualizaciones disponibles">
+    <img src="/assets/img/blog/portaldatos/actualizaciones.png" alt="Actualizaciones disponibles">
   </a>
 </div>
 

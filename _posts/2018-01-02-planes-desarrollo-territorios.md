@@ -3,7 +3,7 @@ title: "Clasificación de Planes de Desarrollo"
 layout: post
 date: '2018-01-02'
 published: yes
-share-img: /img/blog/planesdnp/imagen7.png
+share-img: /assets/img/blog/planesdnp/imagen7.png
 tags:
 - Español
 - DNP
@@ -78,8 +78,8 @@ print(head(paths)) # Visualizar los primeros 6 elementos de la variable `paths`
 ```
 
 <div>
-  <a href="http://camicabrera.com/img/blog/planesdnp/datos1.png">
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos1.png" alt="">
+  <a href="/assets/img/blog/planesdnp/datos1.png">
+    <img src="/assets/img/blog/planesdnp/datos1.png" alt="">
   </a>
 </div>
 
@@ -116,8 +116,8 @@ stop_es <- c(stopwords(kind = "es"), "ee", "nn", "oo", "aa", "aaa", "dd", "rr", 
 print(matrix(stop_es[1:50], nrow = 10, byrow = TRUE))
 ```
 <div>
-  <a href="http://camicabrera.com/img/blog/planesdnp/datos2.png">
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos2.png" alt="">
+  <a href="/assets/img/blog/planesdnp/datos2.png">
+    <img src="/assets/img/blog/planesdnp/datos2.png" alt="">
   </a>
 </div>
 
@@ -144,8 +144,8 @@ Utilizando el algoritmo de _stemming_ de Porter y tomando como ejemplo las 30 pa
 print(d$HUILA[, .N, keyby = HUILA][order(N, decreasing = T)][1:30,.(HUILA, stemDocument(x = HUILA,  language = "es"), N)])
 ```
 <div>
-  <a href="http://camicabrera.com/img/blog/planesdnp/datos3.png">
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos3.png" alt="">
+  <a href="/assets/img/blog/planesdnp/datos3.png">
+    <img src="/assets/img/blog/planesdnp/datos3.png" alt="">
   </a>
 </div>
 
@@ -184,7 +184,7 @@ print(d[order(V1, decreasing = T)])
 ```
 <div>
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos4.png" alt="">
+    <img src="/assets/img/blog/planesdnp/datos4.png" alt="">
   </a>
 </div>
 
@@ -192,9 +192,9 @@ Filtra por los departamentos. Cada departamento resalta las 15 palabras (raíces
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen1.png" alt="">
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen2.png" alt="">
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen3.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen1.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen2.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen3.png" alt="">
   </a>
 </div>
 
@@ -206,7 +206,7 @@ str(f)
 ```
 <div>
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos5.png" alt="">
+    <img src="/assets/img/blog/planesdnp/datos5.png" alt="">
   </a>
 </div>
 
@@ -224,9 +224,9 @@ La variable `q` contiene la frecuencia ponderada por el TF-IDF de cada palabra. 
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen4.png" alt="">
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen5.png" alt="">
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen6.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen4.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen5.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen6.png" alt="">
   </a>
 </div>
 
@@ -257,7 +257,7 @@ corrplot(corr = cor(q, method = "pearson"), type = "lower", method = "pie", diag
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen7.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen7.png" alt="">
   </a>
 </div>
 
@@ -300,7 +300,7 @@ print(doc)
 ```
 <div>
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos6.png" alt="">
+    <img src="/assets/img/blog/planesdnp/datos6.png" alt="">
   </a>
 </div>
 
@@ -310,7 +310,7 @@ print(ap_lda)
 ```
 <div>
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos7.png" alt="">
+    <img src="/assets/img/blog/planesdnp/datos7.png" alt="">
   </a>
 </div>
 
@@ -325,7 +325,7 @@ print(ap_topics)
 
 <div>
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos8.png" alt="">
+    <img src="/assets/img/blog/planesdnp/datos8.png" alt="">
   </a>
 </div>
 
@@ -349,8 +349,8 @@ ap_top_terms %>%
 ```
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen8.png" alt="">
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen9.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen8.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen9.png" alt="">
   </a>
 </div>
 
@@ -376,7 +376,7 @@ beta_spread <- ap_topics %>%
 
 <div style="text-align:center;">
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/imagen10.png" alt="">
+    <img src="/assets/img/blog/planesdnp/imagen10.png" alt="">
   </a>
 </div>
 
@@ -394,7 +394,7 @@ print(depart)
 ```
 <div>
   <a>
-    <img src="http://camicabrera.com/img/blog/planesdnp/datos9.png" alt="">
+    <img src="/assets/img/blog/planesdnp/datos9.png" alt="">
   </a>
 </div>
 
