@@ -2,6 +2,9 @@
 layout: post
 title: "Robotic Process Automation: The Future is Now"
 date: '2023-01-19'
+permalink: /blog/robotic-process-automation/
+redirect_from:
+    - /2023-01-19-robotic-process-automation/
 tags:
     - Robotic Process Automation
     - RPA

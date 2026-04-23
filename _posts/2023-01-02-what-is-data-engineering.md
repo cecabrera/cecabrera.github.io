@@ -2,6 +2,9 @@
 layout: post
 title: What is Data Engineering?
 date: '2023-01-02'
+permalink: /blog/what-is-data-engineering/
+redirect_from:
+    - /2023-01-02-what-is-data-engineering/
 tags:
     - Data engineering
     - Big data

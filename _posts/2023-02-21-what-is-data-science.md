@@ -2,6 +2,9 @@
 layout: post
 title: "What is Data Science? 🤔📊💻"
 date: '2023-02-21'
+permalink: /blog/what-is-data-science/
+redirect_from:
+    - /2023-02-21-what-is-data-science/
 tags:
     - data science
     - big data
